@@ -1,0 +1,26 @@
+input{
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Tomorrow';
+  }
+
+p {
+    font-family: 'Metrophobic';
+ }
+
+.jumbotron {
+    background-color: #232528;
+    color: #EAF6FF;
+}
+
+body {
+    background-color: #232528;
+}
+
+h3{
+    color: black;
+}
+
+
