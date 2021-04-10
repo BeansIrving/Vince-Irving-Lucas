@@ -1,0 +1,517 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+
+
+img{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+.carousel-item {
+    
+    background-color: #141414;
+    color:white;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.carousel-item{
+    height:50rem;
+}
+
+
+.navbar-nav {
+    margin-left: auto;
+    padding-right:5rem;
+    font-family: Space and Astronomy;
+    font-size:0.7rem;
+    color:#ffffff;
+}
+
+.navbarbrand {
+    padding-left: 5rem;
+}
+
+.dropdown-menu {
+    font-size:1.5vh;
+    font-family: Century Gothic;
+}
+
+.row .featurette {
+    position: relative;
+    top:50%;
+}
+
+
+.jumbotron .row {
+    position: relative;
+    top:20%;
+    background-color: white;
+    padding-top: 5%;
+    padding-left: 5vh;
+    padding-bottom: 5vh;
+    margin: 0rem;
+}
+/* Cryptohaven */
+#haven{
+    padding-right: 0vh;
+}
+    
+    
+    @media (max-width:1024px) {
+        #haven{
+            position: relative;
+            margin-bottom: 20vh;
+        }
+    }
+    
+    @media(max-width:768px){
+        #haven{
+            padding-right: 5vh;
+            position: relative;
+            top:8.5vh;
+        }
+    }
+
+    @media(max-width:480px){
+        #haven{
+            padding-right: 5vh;
+            position: relative;
+            top:-30vh;
+        }
+    }
+
+   
+.Cryptohaven{
+    position: relative;
+    top:25%;
+    color:#141414;
+    padding-left: 5vh;
+    padding-top: 0.5;
+    padding-bottom: 5vh;
+    font-size: 4vh;
+    text-align: left;
+   
+}
+
+    @media(max-width:768px){
+        .Cryptohaven{
+            color:#141414;
+            position: relative;
+            top:15vh;
+            font-size: 2.5vh;
+            padding-bottom: 0vh;
+            padding-left: 0vh;
+            text-align: left;
+        }
+    }
+
+    @media(max-width:480px){
+        .Cryptohaven{
+            color:#141414;
+            position: relative;
+            top:35vh;
+            font-size: 3vh;
+            padding-bottom: 0vh;
+            padding-left: 0vh;
+            text-align: left;
+            
+        }
+    }
+
+
+.lead{
+    padding-top:5%;
+    padding-left: 5vh;
+    position: relative;
+    font-family: Century Gothic;
+    font-size: 3vh;
+    top: 10vh;
+    text-align: justify;
+}
+    
+  
+
+    @media(max-width:768px){
+        .lead{
+            position: relative;
+            font-family: Century Gothic;
+            font-size: 2.2vh;
+            top: 15vh;
+            padding-left: 0vh;
+            padding-right: 5vh;
+            margin-bottom: 0;
+            text-align: left;
+        }
+    }
+    
+
+    @media(max-width:480px){
+        .lead{
+            position: relative;
+            font-family: Century Gothic;
+            font-size: 3vh;
+            top: 35vh;
+            padding-left: 0vh;
+            padding-right: 5vh;
+            margin-bottom: -15vh;
+            text-align: left;
+        }
+    }
+
+/* Blockchain */
+
+.blockchain{
+    position: relative;
+    color: white;
+    padding-left: 5vh;
+    padding-right: 10vh;
+    padding-top: 10vh;
+
+    height: 50vh;
+}
+
+@media(max-width:768px){
+    .blockchain{
+        color:white;
+        position: relative;
+        top:6vh;
+        font-size: 2.5vh;
+        padding-bottom: 0vh;
+        padding-left: 0vh;
+        text-align: left;
+    }
+}
+
+@media(max-width:480px){
+    .blockchain{
+        color: white;
+        position: relative;
+        top:0vh;
+        left:1vh;
+        font-size: 3vh;
+        text-align: left;
+        margin-bottom: 52vh;
+    }
+}
+
+.leadBlockchain{
+    
+    position: relative;
+    font-family: Century Gothic;
+    font-size: 3vh;
+    top: 5vh;
+    text-align: justify;
+} 
+
+@media(max-width:768px){
+    .leadBlockchain{
+        position: relative;
+        font-family: Century Gothic;
+        font-size: 2.2vh;
+        top: 6vh;
+        padding-left: 0vh;
+        padding-right: 5vh;
+        text-align: left;
+    }
+}
+
+
+@media(max-width:480px){
+    .leadBlockchain{
+        position: relative;
+        font-family: Century Gothic;
+        font-size: 3vh;
+        top: 5vh;
+        margin-left: 0vh;
+        margin-right: 0vh;
+        padding-right: 0vh;
+        margin-bottom: -15vh;
+        text-align: left;
+    }
+}
+
+/* Dapps Development */
+
+#dapps {
+
+    position: relative;
+    top:4.5vh;
+    right:1vh;
+    padding-right: 2vh;
+
+}
+
+@media(max-width:480px){
+    #dapps{
+        padding-right: 5vh;
+        padding-left: 5vh;
+        position: relative;
+        top:-50vh;
+    }
+}
+
+
+.Dapps{
+    position: relative;
+    top:3vh;
+    color: white;
+    padding-left: 5vh;
+    margin-left: 0vh;
+}
+
+@media(max-width:480px){
+    .Dapps{
+        position: relative;
+        top:35vh;
+        color: white;
+        padding-left: 0vh;
+        margin-left: 0vh;
+        margin-bottom: 20vh;
+        text-align: justify;
+    }
+}
+
+
+
+.leadDapps{
+    position: relative;
+    font-family: Century Gothic;
+    font-size: 3vh;
+    top: 5vh;
+    padding-right: 5vh;
+}
+
+
+/* Token */
+
+#token{
+    position: relative;
+    top:0vh;
+    right:1vh;
+    padding-right: 2vh;
+}
+
+@media(max-width:480px){
+    #token{
+        position: relative;
+        top:0vh;
+        right:2vh;
+        padding-right: 2vh;
+    }
+}
+    
+
+.Token{
+    position: relative;
+    top:3vh;
+    color: black;
+    padding-top: 2vh;
+    padding-left: 0.5;
+    padding-right: 5vh;
+    padding-bottom: 5rem;
+}
+
+.leadToken {
+
+    position: relative;
+    font-family: Century Gothic;
+    font-size: 3vh;
+    padding-right: 1vh;
+    top: 5vh;
+    text-align: justify;
+
+}
+
+/* Smart Contract */
+
+#SmartContract{
+
+    position: relative;
+    top:0.5vh;
+    padding-left: 20vh;
+    height: 30vh;
+    width: auto;
+    
+}
+
+@media(max-width:480px){
+    #SmartContract{
+        padding-right: 5vh;
+        padding-left: 11vh;
+        position: relative;
+        top:-65vh;
+    }
+}
+
+
+.sc {
+    position: relative;
+    top:2vh;
+    color: white;
+    padding-left: 5vh;
+    margin-left: 0vh;
+    
+}
+
+@media(max-width:480px){
+    .sc{
+        position: relative;
+        top:40vh;
+        color: white;
+        padding-left: 0vh;
+        padding-right: 5vh;
+        margin-left: 0vh;
+        margin-bottom: 20vh;
+        text-align: justify;
+    }
+}
+
+.leadSC {
+
+    position: relative;
+    font-family: Century Gothic Regular;
+    font-size: 3vh;
+    top: 7vh;
+    
+}
+
+#ETH {
+    position: relative;
+    top:4vh;
+    left:20vh;
+    padding-right: 5vh;
+}
+
+@media(max-width:480px){
+    #ETH{
+     
+        position: relative;
+        top:10vh;
+        left:12vh;
+        height: 30vh;
+        width: auto;
+    }
+}
+
+.Eth{
+
+    position: relative;
+    top:0vh;
+    right:10vh;
+    color: black;
+    padding-top: 2vh;
+    padding-bottom: 5rem;
+    
+}
+
+@media(max-width:480px){
+    .Eth{
+        position: relative;
+        top:15vh;
+        color: black;
+        padding-left: 10vh;
+        
+        margin-right: 0vh;
+        margin-bottom: 10vh;
+        
+    }
+}
+
+.leadETH{
+
+    position: relative;
+    font-family: Century Gothic;
+    font-size: 3vh;
+    top: 5vh;
+
+}
+
+@media(max-width:480px){
+    .leadETH{
+        position: relative;
+        font-family: Century Gothic;
+        font-size: 3vh;
+        top: 5vh;
+        text-align: justify;
+        
+    }
+}
+
+
+
+
+.row{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bnb
+{
+    position: relative;
+    top:15vh;
+    padding-left:18vh;
+    padding-right: 0;
+}
+
+@media(max-width:480px){
+    #bnb{
+        position: relative;
+        top:-120vh;
+        right:10.5vh;
+        padding-right: 0vh;
+    }
+}
+
+.BNB{
+    position: relative;
+    top:3vh;
+    left:0vh;
+    color:white;
+    margin-bottom: 25vh;
+    padding-left: 5vh;
+    
+}
+
+@media(max-width:480px){
+    .BNB{
+        position: relative;
+        top:45vh;
+        color: white;
+        padding-left: 0vh;
+        padding-right: 5vh;
+        margin-right: 0vh;
+        margin-bottom: 30vh;
+        
+    }
+}
+
+
+.leadBNB{
+    padding-top:0vh;
+    position: relative;
+    font-family: Century Gothic;
+    font-size: 3vh;
+    top: 10vh;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
